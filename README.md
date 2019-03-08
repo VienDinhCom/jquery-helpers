@@ -1,2 +1,3 @@
-# jquery.helpers
-jQuery Exists &amp; jQuery Media Queries
+# jQuery Helpers for front-end development
+
+Usage: `<script src="https://unpkg.com/jquery-helpers"></script>`
