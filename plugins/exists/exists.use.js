@@ -1,3 +1,5 @@
+console.log(`There are ${$('.element').exists()} elements in the page.`);
+
 $('.element').exists((element, length) => {
 	console.log({element, length});
 });
