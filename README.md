@@ -10,7 +10,7 @@ Place the following `<script>`s near the end of your pages, right before the clo
 ```
 
 ## Download
-Download ready-to-use compiled code to easily drop into your project: [http](https://unpkg.com/jquery-helpers@1.0.1/dist/)
+Download ready-to-use compiled code to easily drop into your project: [https://unpkg.com/jquery-helpers@1.0.1/dist/](https://unpkg.com/jquery-helpers@1.0.1/dist/)
 
 ## Usage
 
