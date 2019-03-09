@@ -35,26 +35,25 @@ gulp.task('matchMedia', function() {
 
 /* jquery.clickOutside.js
 ----------------------------------------------------------------------------------------------------*/
-const clickOutside = [
-  'plugins/clickOutside/clickOutside.js'
-];
+// const clickOutside = [
+//   'plugins/clickOutside/clickOutside.js'
+// ];
 
-gulp.task('clickOutside', function() {
+// gulp.task('clickOutside', function() {
 
-  return gulp.src(helpers)
-    .pipe($.concat('jquery.clickOutside.js'))
-    .pipe($.uglify())
-    .pipe(gulp.dest('./dist'));
-});
+//   return gulp.src(helpers)
+//     .pipe($.concat('jquery.clickOutside.js'))
+//     .pipe($.uglify())
+//     .pipe(gulp.dest('./dist'));
+// });
 
 
 const helpers = [
   ...exists,
-  ...matchMedia,
-  ...clickOutside
+  ...matchMedia
 ];
 
-gulp.task('default', ['exists', 'matchMedia', 'clickOutside'], function() {
+gulp.task('default', ['exists', 'matchMedia'], function() {
 
   return gulp.src(helpers)
     .pipe($.concat('jquery.helpers.js'))
