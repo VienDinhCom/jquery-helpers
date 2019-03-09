@@ -13,27 +13,27 @@ Place the following <script>s near the end of your pages, right before the closi
 ### $('.element').exists()
 `$('.element').exists()` function helps us to check whether an element exists or not.
 
-`
+```
 var length = $('.element').exists();
 console.log('There are' + length + 'elements in the page.');
-`
+```
 
-`
+```
 $('.element').exists(function (element, length) {
 	console.log({element, length});
 }, () => {
 	console.log(null);
 });
-`
+```
 
-`
+```
 $('.element').exists(function (element, length) {
 	console.log({element, length});
 });
-`
+```
 
-`
+```
 $('.element').exists(null, function() {
 	console.log(null);
 });
-`
+```
