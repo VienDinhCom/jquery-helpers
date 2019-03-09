@@ -10,7 +10,7 @@ Place the following `<script>`s near the end of your pages, right before the clo
 ```
 
 ## Download
-Download ready-to-use compiled code to easily drop into your project: [https://unpkg.com/jquery-helpers@1.0.1/dist/](https://unpkg.com/jquery-helpers@1.0.1/dist/)
+You can download ready-to-use compiled code to easily drop into your project. [Download jQuery Helpers](https://unpkg.com/jquery-helpers@1.0.1/dist/)
 
 ## Usage
 
@@ -25,21 +25,21 @@ console.log('There are' + length + 'elements in the page.');
 
 ```
 $('.element').exists(function (element, length) {
-	console.log({element, length});
+  console.log({element, length});
 }, () => {
-	console.log(null);
+  console.log(null);
 });
 ```
 
 ```
 $('.element').exists(function (element, length) {
-	console.log({element, length});
+  console.log({element, length});
 });
 ```
 
 ```
 $('.element').exists(null, function() {
-	console.log(null);
+  console.log(null);
 });
 ```
 
@@ -73,3 +73,6 @@ $(window).matchMedia('(max-width: 767px)', function () {
   console.log('Desktop');
 });
 ```
+
+## Services
+If you need someone to convert your PSD/Sketch designs to High-Quality Responsive Web templates, you can hire me on [UpWork](https://www.upwork.com/freelancers/~015d7d36a8c95a856a).
