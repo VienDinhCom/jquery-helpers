@@ -1,16 +1,18 @@
 # jQuery Helpers
 A set of jQuery Helpers for front-end development.
 
+**Ad**: Excuse me! If you need someone to convert your *PSD/Sketch designs* to *High-Quality Responsive Web templates* with Bootstrap 4, Semantic UI, ... You can hire me on [UpWork](https://www.upwork.com/freelancers/~015d7d36a8c95a856a). Thank you in advance for your time and consideration. I look forward to working with you soon. 😃
+
 ## Quick start
 Place the following `<script>`s near the end of your pages, right before the closing `</body>` tag, to enable them. jQuery must come first, and then our plugins.
 
 ```
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-<script src="https://unpkg.com/jquery-helpers@1.0.1/dist/jquery.helpers.js"></script>
+<script src="https://unpkg.com/jquery-helpers@1.0.2/dist/jquery.helpers.js"></script>
 ```
 
 ## Download
-You can download ready-to-use compiled code to easily drop into your project. [Download jQuery Helpers](https://unpkg.com/jquery-helpers@1.0.1/dist/)
+You can download ready-to-use compiled code to easily drop into your project: [Download jQuery Helpers](https://unpkg.com/jquery-helpers@1.0.2/dist/).
 
 ## Usage
 
@@ -73,6 +75,3 @@ $(window).matchMedia('(max-width: 767px)', function () {
   console.log('Desktop');
 });
 ```
-
-## Services
-If you need someone to convert your PSD/Sketch designs to High-Quality Responsive Web templates, you can hire me on [UpWork](https://www.upwork.com/freelancers/~015d7d36a8c95a856a). 😃
