@@ -8,11 +8,11 @@ Place the following `<script>`s near the end of your pages, right before the clo
 
 ```
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-<script src="https://unpkg.com/jquery-helpers@1.0.2/dist/jquery.helpers.js"></script>
+<script src="https://unpkg.com/jquery-helpers@1.0.3/dist/jquery.helpers.js"></script>
 ```
 
 ## Download
-You can download ready-to-use compiled code to easily drop into your project: [Download jQuery Helpers](https://unpkg.com/jquery-helpers@1.0.2/dist/).
+You can download ready-to-use compiled code to easily drop into your project: [Download jQuery Helpers](https://unpkg.com/jquery-helpers@1.0.3/dist/).
 
 ## Usage
 

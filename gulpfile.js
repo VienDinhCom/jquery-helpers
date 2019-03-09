@@ -9,7 +9,7 @@ const exists = [
 
 gulp.task('exists', function() {
 
-  return gulp.src(helpers)
+  return gulp.src(exists)
     .pipe($.concat('jquery.exists.js'))
     .pipe($.uglify())
     .pipe(gulp.dest('./dist'));
@@ -26,7 +26,7 @@ const matchMedia = [
 
 gulp.task('matchMedia', function() {
 
-  return gulp.src(helpers)
+  return gulp.src(matchMedia)
     .pipe($.concat('jquery.matchMedia.js'))
     .pipe($.uglify())
     .pipe(gulp.dest('./dist'));
