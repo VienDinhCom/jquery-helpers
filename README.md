@@ -75,4 +75,4 @@ $(window).matchMedia('(max-width: 767px)', function () {
 ```
 
 ## Services
-If you need someone to convert your PSD/Sketch designs to High-Quality Responsive Web templates, you can hire me on [UpWork](https://www.upwork.com/freelancers/~015d7d36a8c95a856a).
+If you need someone to convert your PSD/Sketch designs to High-Quality Responsive Web templates, you can hire me on [UpWork](https://www.upwork.com/freelancers/~015d7d36a8c95a856a). 😃
