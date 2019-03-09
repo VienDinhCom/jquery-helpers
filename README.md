@@ -22,7 +22,7 @@ This code lets you check whether an element exists or not.
 ```
 var length = $('.element').exists();
 
-console.log('There are' + length + 'elements in the page.');
+console.log('There are ' + length + ' elements in the page.');
 ```
 
 ```
