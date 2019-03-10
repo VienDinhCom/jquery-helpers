@@ -28,7 +28,7 @@ console.log('There are ' + length + ' elements in the page.');
 ```
 $('.element').exists(function (element, length) {
   console.log({element, length});
-}, () => {
+}, function () {
   console.log(null);
 });
 ```
