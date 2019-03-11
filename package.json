@@ -1,6 +1,6 @@
 {
   "name": "jquery-helpers",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A set of jQuery Helpers for front-end development.",
   "main": "dist/jquery.helpers.js",
   "scripts": {
