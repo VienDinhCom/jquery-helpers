@@ -1,18 +1,18 @@
 # jQuery Helpers
 A set of jQuery Helpers for front-end development.
 
-**Ad**: Excuse me! If you need someone to convert your *PSD/Sketch designs* to *High-Quality Responsive Web templates* with Bootstrap 4, Semantic UI, ... You can hire me on [UpWork](https://www.upwork.com/freelancers/~015d7d36a8c95a856a). Thank you in advance for your time and consideration. I look forward to working with you soon. 😃
+**Ad**: Excuse me! If you need someone to convert your *PSD/Sketch designs* to *High-Quality Responsive Web templates* with Bootstrap 4, Semantic UI, ... You can hire me on [UpWork](https://www.upwork.com/freelancers/~015d7d36a8c95a856a). 😃
 
 ## Quick start
 Place the following `<script>`s near the end of your pages, right before the closing `</body>` tag, to enable them. jQuery must come first, and then our plugins.
 
 ```
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-<script src="https://unpkg.com/jquery-helpers@1.0.3/dist/jquery.helpers.js"></script>
+<script src="https://unpkg.com/jquery-helpers@1.0.4/dist/jquery.helpers.js"></script>
 ```
 
 ## Download
-You can download ready-to-use compiled code to easily drop into your project: [Download jQuery Helpers](https://unpkg.com/jquery-helpers@1.0.3/dist/).
+You can download ready-to-use compiled code to easily drop into your project: [Download jQuery Helpers](https://unpkg.com/jquery-helpers@1.0.4/dist/).
 
 ## Usage
 
@@ -20,28 +20,36 @@ You can download ready-to-use compiled code to easily drop into your project: [D
 This code lets you check whether an element exists or not.
 
 ```
-var length = $('.element').exists();
+if ($('.element').exists()) {
+  var length = $('.element').exists();
 
-console.log('There are ' + length + ' elements in the page.');
+  console.log('There are ' + length + ' elements in the page.');
+}
 ```
 
 ```
-$('.element').exists(function (element, length) {
-  console.log({element, length});
+$('.element').exists(function(length) {
+  console.log({
+    length: length,
+    content: $(this).html(), 
+  });
 }, function () {
-  console.log(null);
+  console.log('There are no selected elements in the pages.');
 });
 ```
 
 ```
-$('.element').exists(function (element, length) {
-  console.log({element, length});
+$('.element').exists(function(length) {
+  console.log({
+    length: length,
+    content: $(this).html(), 
+  });
 });
 ```
 
 ```
 $('.element').exists(null, function() {
-  console.log(null);
+  console.log('There are no selected elements in the pages.');
 });
 ```
 

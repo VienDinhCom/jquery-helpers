@@ -6,7 +6,7 @@
     if (length === 0 && $.isFunction(no)) no.call();
 
     this.each(function() {
-      if ($.isFunction(yes)) yes.call(null, this, length);
+      if ($.isFunction(yes)) yes.call(this, length);
     });
 
     return length;
