@@ -1,8 +1,6 @@
 # jQuery Helpers
 A set of jQuery Helpers for front-end development.
 
-**Ad**: Excuse me! If you need someone to convert your *PSD/Sketch designs* to *High-Quality Responsive Web templates* with Bootstrap 4, Semantic UI, ... You can hire me on [UpWork](https://www.upwork.com/freelancers/~015d7d36a8c95a856a). 😃
-
 ## Quick start
 Place the following `<script>`s near the end of your pages, right before the closing `</body>` tag, to enable them. jQuery must come first, and then our plugins.
 
